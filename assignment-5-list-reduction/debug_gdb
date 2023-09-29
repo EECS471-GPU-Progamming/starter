@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ "$#" -ne 2 ]; then
+    echo "Usage: ./debug_gdb {program} {test_number}"
+    exit 1
+fi
+
+export LD_LIBRARY_PATH=$PWD/libwb/build/:$LD_LIBRARY_PATH
+
+if [ "$#" -eq  2 ]; then
+    cuda-gdb --args ./$1 -e test/$2/output.raw -i test/$2/input.raw -o test/$2/attempt.raw -t vector
+fi

@@ -1,0 +1,2 @@
+CLASS_NAME = eecs471f23_class
+UNIQUE_NAME = ${USER}
