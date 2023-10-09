@@ -1,2 +1,0 @@
-double free or corruption (out)
-/var/spool/slurmd.spool/job61125087/slurm_script: line 44: 678294 Aborted                 (core dumped) ./$1 -e test/$2/output.raw -i test/$2/input0.raw,test/$2/input1.raw -o test/$2/attempt.raw -t matrix

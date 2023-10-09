@@ -12,6 +12,7 @@
 *.swp
 *.log
 *.o
+*.out
 **/lib/
 **/test-dataset/
 test
