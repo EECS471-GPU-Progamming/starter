@@ -4,7 +4,6 @@
 *.ptx
 *.cubin
 *.fatbin
-**/build
 **/build-*
 
 **/.srclib-cache/
@@ -15,7 +14,6 @@
 *.out
 **/lib/
 **/test-dataset/
-test
 **/test.dSYM/
 **/Linux-x86_64
 attempt.raw
